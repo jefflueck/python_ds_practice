@@ -1,0 +1,25 @@
+from typing import List
+
+
+def list_check(lst):
+    """Are all items in lst a list?
+
+        >>> list_check([[1], [2, 3]])
+        True
+
+        >>> list_check([[1], "nope"])
+        False
+    """
+    # Not sure why this did not work
+    # for item in lst:
+    #     if type(item) == list:
+    #         return True
+
+    # return False
+
+    # This works
+    for item in lst:
+        if type(item) != list:
+            return False
+
+    return True
