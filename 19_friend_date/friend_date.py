@@ -1,5 +1,5 @@
 def friend_date(a, b):
-    """Given two friends, do they have sny hobbies in common?
+    """Given two friends, do they have any hobbies in common?
 
     - a: friend #1, a tuple of (name, age, list-of-hobbies)
     - b: same, for friend #2
