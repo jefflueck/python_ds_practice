@@ -23,3 +23,10 @@ def sum_range(nums, start=0, end=None):
         >>> sum_range(nums, 1, 99)
         9
     """
+    # I dont understand what they want us to do with this exercise.
+
+    # Please explain at our meeting on Thursday
+    if end is None:
+        end = len(nums)
+
+    return sum(nums[start:end + 1])
